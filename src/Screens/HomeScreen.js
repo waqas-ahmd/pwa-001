@@ -7,10 +7,10 @@ import phoneIcon from "../icons/phone.svg";
 import playIcon from "../icons/play.svg";
 import whatsappIcon from "../icons/whatsapp.svg";
 import shareIcon from "../icons/share.svg";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const HomeScreen = ({ navigation }) => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const Email = () => {
     window.open("mailto:test@example.com", "_parent");
   };
@@ -28,12 +28,12 @@ const HomeScreen = ({ navigation }) => {
   };
   const Gallery = () => {
     navigation.navigate("Gallery");
-    navigate("/#gallery");
+    // navigate("/#gallery");
     // window.location.href = "#1";
   };
   const Play = () => {
     navigation.navigate("Video");
-    navigate("/#youtube");
+    // navigate("/#youtube");
   };
 
   const Share = () => {

@@ -1,11 +1,12 @@
 import MainNavigator from "./Navigation/Navigator";
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<MainNavigator />} />
-    </Routes>
+    <MainNavigator/>
+    // <Routes>
+    //   <Route path="/" element={<MainNavigator />} />
+    // </Routes>
   );
 }
 

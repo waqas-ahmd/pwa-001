@@ -3,12 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 // import reportWebVitals from "./reportWebVitals";
-import { HashRouter as Router } from "react-router-dom";
+// import { BrowserRouter as Router } from "react-router-dom";
 import swDev from "./swDev";
 ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
+  // <Router>
+    <App />,
+  // </Router>,
   document.getElementById("root")
 );
 
