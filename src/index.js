@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 // import reportWebVitals from "./reportWebVitals";
 // import { BrowserRouter as Router } from "react-router-dom";
-import swDev from "./swDev";
+// import swDev from "./swDev";
 ReactDOM.render(
   // <Router>
   <App />,
